@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Xaint Wayne">
+    <title>Unik Web Design | Services</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="box-size">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                 <i class="fas fa-sun"></i>
+                 <i class="fas fa-moon"></i>
+                 <div class="ball"></div>
+            </label>
+        </div>
+        <div class="container">
+            <div id="branding">
+                <img src="./img/webTech.png" alt="Logo">
+                <h1><span class="highlight">Unik</span> webTech</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li ><a href="about.html">About</a></li>
+                    <li class="current"><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+        <span class="open-slide">
+                        <a href="#" onclick="openSlideMenu()">
+                            <svg width="30" height="30">
+                                <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                                <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                                <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                            </svg>
+                        </a>
+                    </span>
+                    <div id="side-menu" class="side-nav">
+                        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                    </div>
+    </header>
+
+    <section id="newsletter">
+    <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+    <form action="process.php">
+        <input type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_1">Subscribe</button>
+    </form>
+    </div>
+    </section>
+
+    <Section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">About Us</h1>
+                <ul id="services">
+                    <a href="packages.html"><li>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero ipsum adipisci.</p>
+                        <strong>Pricing: $1,000 - $3,000</strong>
+                    </li></a>
+                    <a href="packages.html"><li>
+                        <h3>Website Maintenance</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero ipsum adipisci.</p>
+                        <strong>Pricing: $250 per month</strong>
+                    </li></a>
+                    <a href="packages,html"></a><li>
+                        <h3>Website Hosting</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero ipsum adipisci.</p>
+                        <strong>Pricing:$25</strong>
+                    </li></a>
+                </ul>
+            </article>
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>Get a Quote</h3>
+                    <form action="#" class="quote">
+                        <div>
+                            <label for="name">Name</label><br>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label> <br>
+                            <input type="email" placeholder="Email Adress">
+                        </div>
+                        <div>
+                            <label for="Message">Message</label>
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <button class="button_1" type="submit">Send</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </Section>
+
+    <footer>
+        <div class="container">
+        <p>Unik webTech, Copyright &copy; 2022</p>
+        </div>
+        <ul>
+            <a href="Team.html"><li class="footer_grid">Team</li></a>
+            <a href="Privacy.html"><li class="footer_grid">Privacy Policy</li></a>
+            <a href="Terms.html"><li class="footer_grid">Terms of use</li></a>
+            <a href="Contact.html"><li class="footer_grid">Contact us</li></a>
+        </ul>
+        <div class="clr"></div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

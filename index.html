@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Xaint Wayne">
+    <title>Unik webTech| Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="box-size">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                 <i class="fas fa-sun"></i>
+                 <i class="fas fa-moon"></i>
+                 <div class="ball"></div>
+            </label>
+        </div>
+        <div class="container">
+            <div id="branding">
+                <img src="./img/webTech.png" alt="Logo">
+                <h1><span class="highlight">Unik</span> webTech</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li> 
+                </ul> 
+            </nav>
+        </div>
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                </svg>
+            </a>
+        </span>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container"> 
+            <input type="radio" name="slide" id="img1" checked>
+            <input type="radio" name="slide" id="img2">
+            <input type="radio" name="slide" id="img3">
+            <input type="radio" name="slide" id="img4">
+            <input type="radio" name="slide" id="img5">
+             <h1>Affordable Professional Web/App Program</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi at nemo nisi.</p>
+            <div class="dots">
+            <label for="img1"></label>
+            <label for="img2"></label>
+            <label for="img3"></label>
+            <label for="img4"></label>
+            <label for="img5"></label>
+        </div>
+        </div>
+    </section >
+        
+    <section id="newsletter">
+    <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+    <form action="process.php">
+        <input type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_1">Subscribe</button>
+    </form>
+    </div>
+    </section>
+
+    <Section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="./img/Html-Logo.png" alt="">
+                <h3>HTML5 Markup</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quos nobis.</p>
+            </div>
+            <div class="box">
+                <img src="./img/Css-Logo.png" alt="">
+                <h3>CSS3 Styling</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quos nobis.</p>
+            </div>
+            <div class="box">
+                <img src="./img/JavaScript-Logo.png" alt="">
+                <h3>Java_script</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quos nobis.</p>
+            </div>
+            <div class="box">
+                <img src="./img/React-Logo.png" alt="">
+                <h3>React</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quos nobis.</p>
+            </div>
+            <div class="box">
+                <img src="./img/C++-Logo.png" alt="">
+                <h3>C++</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quos nobis.</p>
+            </div>
+            <div class="box">
+                <img src="./img/UIUX-Logo.png" alt="">
+                <h3>UI_UX</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quos nobis.</p>
+            </div>
+            <div class="clr"></div>
+            <div class="box">
+                <img src="./img/Graphic-design.png" alt="">
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quos nobis.</p>
+            </div>
+        </div>
+    </Section>
+
+    <footer>
+        <div class="container">
+        <p>Unik webTech, Copyright &copy; 2022</p>
+        </div>
+        <ul>
+            <a href="Team.html"><li class="footer_grid">Team</li></a>
+            <a href="Privacy.html"><li class="footer_grid">Privacy Policy</li></a>
+            <a href="Terms.html"><li class="footer_grid">Terms of use</li></a>
+            <a href="Contact.html"><li class="footer_grid">Contact us</li></a>
+        </ul>
+        <div class="clr"></div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
